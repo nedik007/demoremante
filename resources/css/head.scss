@@ -1,0 +1,60 @@
+.head {
+    position: relative;
+    margin: auto;
+    width: $desktopContentWidth;
+    background: white;
+    color: black;
+    min-height: 40px;
+    line-height: 40px;
+
+    li {
+        margin:0 10px;
+    }
+
+    @media #{$desktopContentMaxBreakpoint} {
+        width: 100%;
+        z-index: 60;
+    }
+
+    &__topMenu {
+        margin: 0 20px;
+    }
+
+
+    @media #{$mediumBreakpoint} {
+        background: #f4f6f8;
+
+        .mobileSearch {
+            display: none;
+        }
+
+        &__mobile {
+            display: none;
+        }
+    }
+
+}
+
+.afterHead {
+    display: flex;
+    margin: 10px 0;
+
+    .search {
+        input[type="text"] {
+            width:400px;
+            line-height:26px;
+        }
+    }
+    .logo {
+        width: 200px;
+        margin-right: 30px;
+    }
+}
+
+.hr {
+    height: 40px;
+    background: transparent linear-gradient(180deg,#006BC3 0,#1C418F 50%,#142e64 100%) 0 0 no-repeat padding-box;
+    background-size: 100% 200%;
+    background-repeat: repeat;
+    transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,44 @@
+body {
+    font-family: $font-family-montserrat;
+    font-size: 14px;
+    color: black;
+    line-height: 1.2em;
+    background-color: white;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:visited, a, a:hover {
+    color: black;
+}
+
+.clearfloat {
+    clear:both;
+}
+
+label {
+    margin: 0;
+}
+
+div.react {
+    display: inline;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+
+div.inline-block {
+    display: inline-block;
+}

@@ -1,0 +1,42 @@
+
+// Typography
+$font-family-montserrat: "Montserrat", sans-serif;
+$font-size-base: 0.9rem;  // rem stands for root EM, The rem unit is relative to the root—or the html—element
+$line-height-base: 1.0;
+
+
+// color pallete
+$red: #ff6250;
+$blue: #3ea7d5;
+$darkblue: #0090d0;
+$lightblue: #6fbcde;
+$green: #5cd4a3;
+$dartgreen: #25bb7e;
+$darkgreen: #00d27c;
+$darkgreentext: #228c60;
+$yellow: #ffc156;
+$lightyellow: #ffd48c;
+$orange: #ff9e84;
+$lightgreen: #e0f7ee;
+$lightred: #f79d84;
+$darkred: #ff0000;
+$grey: #ececec;
+$darkgrey: #d0cfcf;
+
+$bggreen: #def6ed;
+
+// sizes
+$desktopContentWidth: 1180px;
+$desktopContentMaxBreakpoint: "only screen and (max-width: 1179px)";
+$desktopContentMinBreakpoint: "only screen and (min-width: 1180px)";
+$desktopMaxBreakpoint: "only screen and (max-width: 1023px)";
+
+
+// media queries
+$mobileMaxBreakpoint: "(orientation: landscape) and (max-height: 420px), (orientation: portrait) and (max-width: 420px)";
+$tabletMaxBreakpoint: "only screen and (max-width: 768px)";
+
+$smallBreakpoint: "(orientation: portrait) and (min-width: 420px), (orientation: landscape) and (min-height: 420px)";
+$mediumBreakpoint: "only screen and (min-width: 768px)";
+$desktopBreakpoint: "only screen and (min-width: 1024px)";
+$largeBreakpoint: "only screen and (min-width: 1180px)";

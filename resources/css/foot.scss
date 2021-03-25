@@ -1,0 +1,71 @@
+.foot {
+    clear: both;
+    padding: 10px 0;
+    background: white;
+
+    &__in {
+        width: $desktopContentWidth;
+        margin: auto;
+    }
+
+    &__producers {
+        width: 50%;
+        float: left;
+
+        ul {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            li {
+                margin: 5px 10px;
+
+                a {
+                    color: white;
+                    font-weight: 500;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+    &__developer {
+        width: 48%;
+        float: right;
+        font-size: 70%;
+
+
+
+        p {
+            margin: 0 auto;
+            padding: 0 10px;
+            text-align: right;
+        }
+
+        a {
+            color: red;
+            font-size: 150%;
+        }
+    }
+
+    @media #{$desktopContentMaxBreakpoint} {
+        &__in {
+            width: 100%;
+        }
+    }
+
+    @media #{$tabletMaxBreakpoint} {
+
+        &__developer {
+            float: none;
+            width: 100%;
+            line-height: 10px;
+            margin-top: 10px;
+            p {
+                text-align: center;
+            }
+        }
+
+    }
+}

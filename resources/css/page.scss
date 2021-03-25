@@ -1,0 +1,10 @@
+.wrapper__content {
+    width: $desktopContentWidth;
+    margin: auto;
+
+
+    @media #{$desktopContentMaxBreakpoint} {
+        width: 100%;
+    }
+
+}

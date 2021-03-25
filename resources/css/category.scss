@@ -1,0 +1,72 @@
+.categories ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    li {
+        border: 1px solid #3ea7d5;
+        margin:5px;
+    }
+
+    a {
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
+.sort {
+    border-top: 1px solid #6c757d;
+    margin: 10px 0;
+    padding-top: 10px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        display:inline-block;
+        padding:10px;
+        border:1px solid #6c757d;
+    }
+
+    a.selected {
+        border:1px solid black;
+        font-weight: bold;
+
+    }
+}
+
+
+.paginator {
+    .text-sm {
+        margin: 10px;
+    }
+}
+
+.products {
+    width: 100%
+}
+
+.products ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.productItem {
+    width: 33%;
+    padding: 20px;
+
+    img {
+        max-width: 100%;
+    }
+
+    .price {
+        font-size:130%;
+
+        &:before {
+            content: 'Cena: '
+        }
+    }
+}
