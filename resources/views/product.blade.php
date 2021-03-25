@@ -20,7 +20,7 @@
     <div class="text-center">
         <form method="post" action="{{route('basket.addProduct', ['Product' => $product])}}">
             @csrf
-            <input type="text" size="1" value="1" name="count"/>
+            <input type="number" min="1" max="100" size="1" value="1" name="count"/>
             <input type="submit" class="btn btn-danger" value="Koupit"/>
         </form>
     </div>
