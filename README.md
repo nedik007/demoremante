@@ -7,8 +7,12 @@
 - spustit "composer install"
 - nastavit si .env 
 - založit si DB 
+- založit adresáře storage/app/public storage/framework/cache, storage/framework/sessions, storage/framework/views vše s 0777
+- chmod 0777 do storage
+- spustit php artisan storage:link
 - spustit "php artisan migrate:fresh"
-- spustit "php artisan import:product"
+- spustit "php artisan import:product" - chvilku strpení, stahuje to data
+  
 - a tradá, mělo by to fungovat
 
 
